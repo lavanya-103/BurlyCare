@@ -1,565 +1,670 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hospital Demo</title>
-    <!--<link rel="stylesheet" href="mainn.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        *{
-    margin: 0px;
-    padding: opx;
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hospital Demo</title>
+  <!--<link rel="stylesheet" href="mainn.css">-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+      *{
+  margin: 0px;
+  padding: opx;
+}
+@media (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
 }
 body{
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 #nav_bar{
-    position: sticky;
-     top:0;
-    z-index: 10; 
+  position: sticky;
+   top:0;
+  z-index: 10; 
 }
 .navbar{
-    padding: 0;
+  padding: 0;
 }
 .navbar-brand img{
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .navbar-nav li a{
-    font-weight: 600;
+  font-weight: 600;
 }
 .nav{
-    text-align: center;
-    justify-content: center;
-    background-color: pink;
+  text-align: center;
+  justify-content: center;
+  background-color: pink;
 }
+.caption-section{
+            padding:9px;
+            letter-spacing: normal;
+            text-align: center;
+        }
+        .caption-section h1,.caption-section h2{
+            text-align: center;
+            font-weight: lighter;
+          font-size: 40px;
+           line-height: 0px;
+        }
+        .caption-section h1{
+          padding-top :2%;
+        
+        }
+        .caption-section{
+            font-size: 2.4em;
+            color: black;
+            margin:2.2em 0 0 0.2em 0;
+        }
+        .caption-section button{
+            display: block;
+            margin:0 auto;
+            margin-top: 20px;
+            font-size:17px;
+            border: 0;
+            padding:0.9em 2em 0.9em 2em;
+
+        }
+        .caption-section h2{
+        font-weight :lighter;
+        
+         font-size: 35px;
+         line-height: 0px;
+        }
+        #button1 , #button2 {
+        display:inline-block;
+      justify-content: center;
+      border-radius: 25px;
+     
+        color: #fff;
+         }
+         #button1{
+            background-color: #Ba2B0c;
+         }
+         #button2{
+            color:grey;
+         }
+         .caption-section span{
+            size:22px;
+         }h4{
+         font-weight :lighter;
+         color: #5b5b5b;
+         font-size: 20px;
+         line-height: 0px;
+         }
+         #burlyy{
+            text-align: center;
+           
+         }
 
 .blog_wrapper .blog-content{
-    background-color:var(--bg-white);
-    padding:2.5rem;
+  background-color:var(--bg-white);
+  padding:2.5rem;
 }
 
 
+
+
+
 .pavan{
-    background-color: white;
+  background-color: white;
 }
 
 .pavan{
-    background-color: white; 
+  background-color: white; 
 }
 .row{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 ul{
-    list-style: none;
+  list-style: none;
 }
 .footer-col{
-    width: 25%;
-    padding: 0 15px;
+  width: 25%;
+  padding: 0 15px;
 }
 
 .home{
-    display: flex;
-    justify-content: center ;
-   
-    align-items: center;
+  display: flex;
+  justify-content: center ;
+ 
+  align-items: center;
 }
+
+         
 .outer{
-    
-    flex-direction: row;
-    flex-wrap: wrap;
-    border:2px solid #ba2b0c;
-    border-radius: 25px;
-    padding:25px;
-    margin:25px 25px 25px 25px;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:10px;
+  padding-bottom: 10px;
+  border:2.5px solid #ba2b0c;
+  border-radius: 25px;
+  margin-top: 3%;
+  margin-left:7%;
+  margin-right:7%;
+  margin-bottom: 5%;
+  height: fit-content;
+ 
+}
+  .page3{
+     float:left;
+      width:50%;
+      height:max-content;
+      
   }
-    .page3{
-       float:left;
-        width:50%;
-        height:max-content;
-        
-    }
-    h3{
-    color:rgb(55, 56, 56);
-    }.girl{
+  h3{
+  color:rgb(55, 56, 56);
+  }
+    .girl{
         display:flex;
         justify-content: center;
         align-content: center;
         width:25%;
         height: 50%;
-        margin-top: 10%;
-        margin-left: 30%;
-        padding-left:85px;
-        padding-bottom: 70px;
-    }
+        margin-top: 5%;
+        margin-left:25%;
+      padding-bottom: 5%;
+      padding-left: 8%;
+    }
 
 .footer_wrapper{
-    background-color:var(--primary-color);
-    padding-bottom:0;
+  background-color:var(--primary-color);
+  padding-bottom:0;
 }
 .footer_wrapper h5{
-    color:var(--text-white);
+  color:var(--text-white);
 }
 .footer_wrapper .contact-info ul a {
-    padding:0;
+  padding:0;
 }
 .footer_wrapper ul li{
-    margin-bottom:.5rem;
-    list-style: none;
-    font-size: .875rem;
+  margin-bottom:.5rem;
+  list-style: none;
+  font-size: .875rem;
 }
 .footer_wrapper ul li a{
-    color:var(--text-white);
+  color:var(--text-white);
 }
 .footer_wrapper .link-widget li a,
 .footer_wrapper p{
-    color:var(--text-white);
-    font-size: .875rem;
-    padding-left:1.5rem;
-    position:relative;
-    -webkit-transition:all 0.3s ease-out 0s;
-    transition:all 0.3s ease-out 0s;
+  color:var(--text-white);
+  font-size: .875rem;
+  padding-left:1.5rem;
+  position:relative;
+  -webkit-transition:all 0.3s ease-out 0s;
+  transition:all 0.3s ease-out 0s;
 }
 .footer_wrapper .link-widget li a::before{
-    content:'\f105';
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    position:absolute;
-    left:0.3rem;
-    top:50%;
-    -webkit-transform:translateY(-50%);
-    transform:translateY(-50%);
+  content:'\f105';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  position:absolute;
+  left:0.3rem;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  transform:translateY(-50%);
 }
 .footer_wrapper .link-widget li a:hover{
-    margin-left:.625rem;
-    color:var(--secondary-text);
+  margin-left:.625rem;
+  color:var(--secondary-text);
 }
 .footer_wrapper .social-network a{
-    width:2.1875rem;
-    height:2.1875rem;
-    margin:.5rem;
-    line-height: 2rem;
-    font-size: .875rem;
-    display:inline-block;
-    border:.125rem solid var(--bg-light-blue);
-    color:var(--text-light);
-    text-align: center;
-    border-radius: 100%;
-    -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width:2.1875rem;
+  height:2.1875rem;
+  margin:.5rem;
+  line-height: 2rem;
+  font-size: .875rem;
+  display:inline-block;
+  border:.125rem solid var(--bg-light-blue);
+  color:var(--text-light);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .footer_wrapper .social-network a:hover{
-    background-color:var(--secondary-color);
-    border-color:var(--secondary-color);
-    color:var(--text-white);
-    transform:translateY(-0.1875rem);
+  background-color:var(--secondary-color);
+  border-color:var(--secondary-color);
+  color:var(--text-white);
+  transform:translateY(-0.1875rem);
 }
 .footer_wrapper ::placeholder{
-    color:var(--text-light);
+  color:var(--text-light);
 }
 .footer_wrapper .form-control{
-    color:var(--text-light);
+  color:var(--text-light);
 }
 .footer_wrapper .form-control:focus{
-    outline:none;
-    box-shadow: none;
-    border-color:var(--bg-white);
+  outline:none;
+  box-shadow: none;
+  border-color:var(--bg-white);
 }
 .footer_wrapper .copyright-section{
-    background-color:var(--bg-light-blue);
-    padding:2rem 0 1rem;
-    text-align: center;
+  background-color:var(--bg-light-blue);
+  padding:2rem 0 1rem;
+  text-align: center;
 }
 .footer_wrapper .copyright-section a{
-    color:var(--text-white);
-    font-weight: 600;
+  color:var(--text-white);
+  font-weight: 600;
 }
 .feedback{
-    border:2.5px solid #ba2b0c;
-    border-radius: 25px;
-    margin-top: 3%;
-    margin-left:7%;
-    margin-right:7%;
-    margin-bottom: 3%;
+  border:2.5px solid #ba2b0c;
+  border-radius: 25px;
+  margin-top: 3%;
+  margin-left:7%;
+  margin-right:7%;
+  margin-bottom: 3%;
 }
- .feedback .form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
- .feedback h2{margin:10px 0;padding-bottom:10px;width:180px;color:#46464a;border-bottom:3px solid #78788c}
- .feedback input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
- .feedback input:focus{border-bottom:2px solid #ba2b0c}
- .feedback p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
- .feedback button{float:right;   text-align: center;padding:8px 12px;margin:8px 0 0; border-radius:20px;font-family:'Montserrat',sans-serif;color:white;border:2px solid #ba2b0c;background:0;transition:all .3s}
- .feedback button{background:#ba2b0c;color:#fff}
- .feedback div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:20px;font-size:13px;box-shadow:10px 10px 40px -14px #ba2b0c}
- .feedback span{margin:0 5px 0 15px}
+.feedback .form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+.feedback h2{margin:10px 0;padding-bottom:10px;width:180px;color:#46464a;border-bottom:3px solid #78788c}
+.feedback input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+.feedback input:focus{border-bottom:2px solid #ba2b0c}
+.feedback p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+.feedback button{float:right;   text-align: center;padding:8px 12px;margin:8px 0 0; border-radius:20px;font-family:'Montserrat',sans-serif;color:white;border:2px solid #ba2b0c;background:0;transition:all .3s}
+.feedback button{background:#ba2b0c;color:#fff}
+.feedback div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:20px;font-size:13px;box-shadow:10px 10px 40px -14px #ba2b0c}
+.feedback span{margin:0&nbsp;5px&nbsp;0&nbsp;15px}
 
- .calmdown{
-    background-color: #ba2b0c;
-    color: white;
- }
+.calmdown{
+  background-color: #ba2b0c;
+  color: white;
+}
 
- .container1{
-    border: 2px solid #ba2b03;
-    width:98%;
-    border-radius: 20px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    color: pink;
- }
- .container1{
-    font-size: 40px;
-    color: rgb(248, 131, 184);
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.container1{
+  border: 2px solid #ba2b03;
+  width:85%;
+  border-radius: 20px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+ 
+ font-weight: 200;
+}
 
- }
- .stats{
-    width: 100%;
-    height: 300px;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.stats{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
- }
- .stats div{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
- }
- .stats div span{
-    font-weight: 100;
-    font-size: 35px;
-    font-style: italic;
- }
- .stats div p{
-    text-transform: capitalize;
-    position: relative;
-    
- }
+}
+.stats div{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.stats div span{
+  font-weight: 100;
+  font-size: 35px;
+  font-style: italic;
+}
+.stats div p{
+  text-transform: capitalize;
+  position: relative;
+  
+}
 
 
- .appointment button{float:right;  text-align: center;padding:8px 12px;margin:8px 0 0; border-radius:20px;font-family:'Montserrat',sans-serif;color:white;border:2px solid #ba2b0c;background:0;transition:all .3s}
- .appointment h2{
-    text-align: center;
-    padding-bottom: 2%;
+.appointment button{float:right;  text-align: center;padding:8px 12px;margin:8px 0 0; border-radius:20px;font-family:'Montserrat',sans-serif;color:white;border:2px solid #ba2b0c;background:0;transition:all .3s}
+.appointment h2{
+  text-align: center;
+  padding-bottom: 2%;
 
- }
+}
 .appointment .myform{
-    width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+  width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
 .appointment input:focus{border-bottom:2px solid #ba2b0c}
 .appointment input{width:100%;padding:5% 5% 5% 5%;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
-    .appointment {
-        border-radius: 25px;
-        border:2px solid #ba2b0c;
-        margin-top: 3%;
-        margin-left: 7%;
-        margin-right: 7%;
-        margin-bottom: 3%;
-    }
-
-
-
-
-    </style>
-  </head>
-  <body>
-
-    <section id="nav-bar">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="data:image/jpeg;base64,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" width="100"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Delhi
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Delhi</a></li>
-                  <li><a class="dropdown-item" href="#">Mumbai</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Chennai</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Call 0876-123-4567</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </section>
-
-
-
-
-    <ul class="nav">
+  .appointment {
+      border-radius: 25px;
+      border:2px solid #ba2b0c;
+      margin-top: 3%;
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-bottom:3%;
+}/* services css*/
+.services{
+            width:90%;
+            margin :0 auto;
+            text-align: center;
+            margin-left:10%;
       
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:black">ENT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:black">Gynaecology</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:black">Protolohy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:black">Laparoscopy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color:black"> Urology</a>
-      </li>
-    </ul>
+         }
+         .services div{
+           border-radius: 8px;
+         max-width:fit-content;
+           text-align: center;
+           color: #1c1b1b;
+          width: 15%;
+          float: left;
+          padding: 10px;
+          word-wrap: break-word;
+           
+         }.services div img{
+            display: block;
+            margin:0 auto;
+            width:60%; 
+
+         }.services div h4{
+            font-size: 24px;
+            padding:20px;
+         } .services .piles:hover {
+            background-color: #ffe9e4; 
+            overflow: hidden;
+         } .services h1{
+            color:black;
+            text-align: center;
+            font-weight: lighter;
+          font-size: 40px;
+           line-height: 0px;
+         }.services u{
+          size:4px;
+          text-align:center;
+         }
+         .services h1{
+            color: #332f2f;
+            text-transform: capitalize;
+            gap:5px;
+            
+            text-decoration:underline #Ba2B0c ;
+            
+         }.services .piles:active{
+            background-color: #ffe9e4;
+         }
+         /* Why */
+         
 
 
 
-<div class="container text-center">
-    <div class="row">
-        <div class="col">
-            <h1>Book Free Appointments with our experts doctors!  </h1>
-            <p> Get full medical assistance and consulatation for diseases Hassle-free experience throughout your treatment </p>
-            <button type="button" class="btn btn-danger">Appointment</button>
-            <a href="#" class="btn btn-dark"> Call our Agent</a>
+
+  </style>
+</head>
+<body>
+
+  <section id="nav-bar" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="data:image/jpeg;base64,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" width=180px" height="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Delhi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Delhi</a></li>
+                <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Chennai</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Call 0876-123-4567</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" width="60%">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        <div>
-            <img src="https://www.medialogic.com/wp-content/uploads/2022/05/caregiver-support-042722-blog.jpg" width="70%">
-        </div>
-    </div>
+      </div>
+    </nav>
+  </section>
+
+
+
+
+  <ul class="nav" height="15%">
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:black">ENT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:black">Gynaecology</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:black">Protology</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:black">Laparoscopy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color:black"> Urology</a>
+    </li>
+  </ul>
+
+
+
+
+  <section class="caption-section">
+    <section>
+      <h1>Book <span style='color:#Ba2B0c'>Free Appointments</span> with our doctors</h1>
+    
+     <h2 style="color: #565555; padding-top:4% ;font-weight:lighter;">Get Full medical assitance and consultaion</h2>
+     <br>
+     <button id="button1">
+      Book Appointments
+     </button> 
+     <span style="color:#5b5b5b">|</span>
+     <button id="button2">
+     Start Shopping
+     </button>
+    </section>
+  </section>
+</section>
+<div id="burlyy" style=" margin-top:2% ">
+  <img src="https://www.medialogic.com/wp-content/uploads/2022/05/caregiver-support-042722-blog.jpg" width="100%" height="64%"style="box-shadow:0 3px 10px rgb(0 0 0 / 0.2)">
 </div>
 
+<section class="services" style="  flex-wrap:wrap;padding-bottom:2%;margin-bottom:16%;margin-top:3%;margin-right:8%;  margin-left:5%;text-align: center;flex-direction:row;padding-right:5%;padding-left:5%;" >
+  <!--<h1 style="text-align: center ;margin-top:5% ;margin-left:3%;">Surgeries We Provide</h1>-->
+  <div style="border-radius: 25px;border: 2px solid #ba2b0c; width:100%;height:75%;">
+    <h1 style="text-align: center ;margin-top:5% ;margin-left:3%;margin-bottom: 5%;">Surgeries We Provide</h1>
+    <div style="padding-left:4% ">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
+   <h4>Fissures</h4>
+   <p>
+       An anal fissure is a small tear 
+       in the thin, moist tissue 
+       (mucosa) that lines the anus. </p>
+ </div>
+ <div>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
+ <h4>Hernia</h4>
+ <p>A hernia occurs when an 
+   internal organ or other body 
+   part protrudes through the 
+   wall of muscle or tissue that 
+   normally contains it.
+ </p>
+ </div>
+ <div class="piles">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
+ <h4>Piles</h4>
+ <p>
+   Piles is common in the case 
+of both men and women. If 
+global medical reports are to 
+be believed, one out of every 
+four adults suffers from piles 
+or hemorrhoids at some or 
+other point in their life. </p>
+ </div>
+ <div>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
+ <h4>Fissures</h4>
+ <p>An anal fissure is a small tear 
+   in the thin, moist tissue 
+   (mucosa) that lines the anus.
+ </p>
+ </div>
+ <div style="padding-right:2%;">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
+ <h4>Fissures</h4>
+ <p>An anal fissure is a small tear 
+   in the thin, moist tissue 
+   (mucosa) that lines the anus.
+ </p>
+ </div>
+ </div>
+</section> 
+  <div class="outer" style="margin-top:40%;">
+      <div class="page3">
+          <h1 style="text-decoration :underline #ba2b0c">Why BurlyCare?</h1>
+      <h3>1.Prior safe  for COVID-19</h3>
+      <p>We are providing the service where our doctors and staff are all 
+      tested of COVID 19 and following the social distancing, our 
+      clinics are sanitized on daily basis, sterilized surgical 
+      equipment, and mandatory PPE kits during surgery.</p>
+      <h3>2.Prime surgery experience</h3>
+      <p>A greedy medical coordinator helps you throughout the 
+      surgery outing from insurance paperwork, to free commute 
+      from home to hospital &amp; back and admission-discharge process 
+      at the hospital with convenience.</p>
+      <h3>3.Medical expertise with best technology</h3>
+      <p>Our surgeons spend a lot of time with you to diagnose your 
+      condition. You are assisted in all pre-surgery medical 
+      diagnostics. We offer advanced laser and laparoscopic surgical 
+      treatments.</p>
+      <h3>4.After the surgery done</h3>
+      <p>We take care of regular follow-ups post-surgery to take care of your health our experts guide you about your diets and exercise</p>
+      </div>
+      <div class="girl">
+      <img src="https://img.freepik.com/free-vector/female-doctor-with-clipboard-icons_23-2147792649.jpg?w=2000" width="500" id="img" style="margin-left:200px">
+      </div>
+      </div>
+
+      <div class="container1" style="margin-top: 3%;margin-left:7%;margin-right:10%;margin-bottom: 3%;">
+          <h1 style="color:#ba2b03; margin-bottom: 6%;">BurlyCare in <strong>Numbers</strong></h1>
+          
+          <div class="stats">
+              <div style="color: #313132;background-color: #ffe9e4;border: 2px solid #bb9086; border-radius: 25px; box-shadow: #d25532;height:300px">
+                  <i class="fa-solid fa-award"></i>
+                  <span class="sta" data-max="300">300+</span>
+                  <p style="size: 20px;">Happy Patients</p>
+              </div>
+              <div style="color: #373737;background-color: #ffe9e4;border: 2px solid #cca096; border-radius: 25px;box-shadow: #d25532;height:300px">
+                  <i class="fa-solid fa-award"></i>
+                  <span class="sta" data-max="400">100+</span>
+                  <p style="size: 20px;">Hospitals</p>
+              </div>
+              <div style="color: #2d2d2e;background-color: #ffe9e4;border: 2px solid #e2b1a6; border-radius: 25px;box-shadow: #d25532;height:300px">
+                  <i class="fa-solid fa-award"></i>
+                  <span class="sta" data-max="400">200+</span>
+                  <p style="size: 20px;">Doctors</p>
+              </div>
+              <div style="color: #2a2a2c;background-color: #ffe9e4;border: 2px solid #b8938b; border-radius: 25px;box-shadow: #d25532;height:300px">
+                  <i class="fa-solid fa-award"></i>
+                  <span class="sta" data-max="400">3+</span>
+                  <p style="size: 20px;">Cities</p>
+              </div>
+          </div>
+      </div>
 
 
+      <section class="appointment">
+          <form class="myform">
+          <h2 style="color: #ba2b0c;">Let's Schedule Your Appointment</h2>
+          <input type="text" placeholder="Full name">
+          <input type="tel" placeholder="Phone Number">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Select your Treatment">
+          </form>
+  
+</section>
 
 
-
-    <section id="blog" class="blog_wrapper wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center mb-5">
-                    <h3 class="text-black"><br><br>Sergeries we Provide</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-6 mb-4">
-                    <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
-                        <div class="blog-content">
-                            <h5 class="text-black mb-4">Fissure</h5>
-                            
-                            <p class="mt-2 text-black">An anal fissure is a small tear in the thin,moist tissue(mucose) that lines the anus.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 mb-4">
-                    <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
-                        <div class="blog-content">
-                            <h5 class="text-black mb-4">Hernia</h5>
-                            <p class="mt-2 text-black">A hernia occurs when an internal organ or other body part produces through the wall of muscule or tissue that normally contains it.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 mb-4">
-                    <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
-                        <div class="blog-content">
-                            <h5 class="text-black mb-4">Piles</h5>
-                            
-                            <p class="mt-2 text-black">Piles is the common in case of both men and women. If flobal medical reports are to be beleived, one out of every four adults suffers from piles.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-sm-6 mb-4">
-                    <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
-                        <div class="blog-content">
-                            <h5 class="text-black mb-4">Fissure</h5>
-                            <p class="mt-2 text-black">An anal fissure is a small tear in the thin,moist tissue(mucose) that lines the anus.
-                            </p>
-                      
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 mb-4">
-                    <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZjfeod5nwImnf1I7nuBjIVNHy7PYNH3GxOZ3LdzdGPn7a7vzsh7fmhZ_VkoL6x9f2_o">
-                        <div class="blog-content">
-                            <h5 class="text-black mb-4">Fissure</h5>
-                           
-                            <p class="mt-2 text-black">An anal fissure is a small tear in the thin,moist tissue(mucose) that lines the anus.
-                            </p>
-                            
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="outer">
-        <div class="page3">
-            <h1 style="text-decoration :underline #ba2b0c">Why BurlyCare?</h1>
-        <h3>1.Prior safe  for COVID-19</h3>
-        <p>We are providing the service where our doctors and staff are all 
-        tested of COVID 19 and following the social distancing, our 
-        clinics are sanitized on daily basis, sterilized surgical 
-        equipment, and mandatory PPE kits during surgery.</p>
-        <h3>2.Prime surgery experience</h3>
-        <p>A greedy medical coordinator helps you throughout the 
-        surgery outing from insurance paperwork, to free commute 
-        from home to hospital &amp; back and admission-discharge process 
-        at the hospital with convenience.</p>
-        <h3>3.Medical expertise with best technology</h3>
-        <p>Our surgeons spend a lot of time with you to diagnose your 
-        condition. You are assisted in all pre-surgery medical 
-        diagnostics. We offer advanced laser and laparoscopic surgical 
-        treatments.</p>
-        <h3>4.After the surgery done</h3>
-        <p>We take care of regular follow-ups post-surgery to take care of your health our experts guide you about your diets and exercise</p>
-        </div>
-        <div class="girl">
-        <img src="https://img.freepik.com/free-vector/female-doctor-with-clipboard-icons_23-2147792649.jpg?w=2000" width="500" id="img" style="margin-left:200px">
-        </div>
-        </div>
-
-        <div class="container1">
-            <h1 style="color: black;">BurlyCare in Numbers</h1>
-            
-            <div class="stats">
-                <div>
-                    <i class="fa-solid fa-award"></i>
-                    <span class="sta" data-max="300">300+</span>
-                    <p>Happ Patients</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-award"></i>
-                    <span class="sta" data-max="400">100+</span>
-                    <p>Hospitals</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-award"></i>
-                    <span class="sta" data-max="400">200+</span>
-                    <p>Doctors</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-award"></i>
-                    <span class="sta" data-max="400">3+</span>
-                    <p>Cities</p>
-                </div>
-            </div>
-        </div>
-
-
-        <section class="appointment">
-            <form class="myform">
-            <h2 style="color: #ba2b0c;">Let's Schedule Your Appointment</h2>
-            <input type="text"placeholder="Full name">
-            <input type="tel" placeholder="Phone Number">
-            <input type="email"placeholder="Email">
-            <input type="text"placeholder="Select your Treatment">
-            </form>
-    
-          </section>
-
-
-        <section class="feedback">
-            <form class="form">
-                <h2 style="color: #ba2b0c;">Have feedback inform us?</h2>
-                <p type="Name:"><input placeholder="Write your name here.."></input></p>
-                <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-                <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-                <button>Send Message</button>
-                
-              </form>   
-        </section>
-        
+      <section class="feedback">
+          <form class="form">
+              <h2 style="color: #ba2b0c;">Have feedback inform us?</h2>
+              <p type="Name:"><input placeholder="Write your name here.."></p>
+              <p type="Email:"><input placeholder="Let us know how to contact you back.."></p>
+              <p type="Message:"><input placeholder="What would you like to tell us.."></p>
+              <button>Send Message</button>
+              
+            </form> 
+          </section>
+      
 
 
 
 
 <div class="calmdown">
-    <section id="contact" class="footer_wrapper wrapper">
-        <div class="container pb-3">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5>BURLY CARE</h5>
-                    <p class="ps-0"> Get full medical assistance and consulatation for diseases Hassle-free experience throughout your treatment</p>
-                    
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5>More Links</h5>
-                    <ul class="link-widget p-0">
-                        <li><a href="#">Our treatments</a></li>
-                        <li><a href="#">Our Doctors</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Ploicy</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5>Our Procedures</h5>
-                    <ul class="link-widget p-0">
-                        <li><a href="#">Lase Piles</a></li>
-                        <li><a href="#">Phimosis</a></li>
-                        <li><a href="#">Gynaecomastia</a></li>
-                        <li><a href="#">Gallstone</a></li>
-                        <li><a href="#">Online Consultation</a></li>
-                    </ul>
-                </div>
+  <section id="contact" class="footer_wrapper wrapper">
+      <div class="container pb-3">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>BURLY CARE</h5>
+                  <p class="ps-0"> Get full medical assistance and consulatation for diseases Hassle-free experience throughout your treatment</p>
+                  
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>More Links</h5>
+                  <ul class="link-widget p-0">
+                      <li><a href="#">Our treatments</a></li>
+                      <li><a href="#">Our Doctors</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Terms &amp; Conditions</a></li>
+                      <li><a href="#">Privacy Ploicy</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h5>Our Procedures</h5>
+                  <ul class="link-widget p-0">
+                      <li><a href="#">Lase Piles</a></li>
+                      <li><a href="#">Phimosis</a></li>
+                      <li><a href="#">Gynaecomastia</a></li>
+                      <li><a href="#">Gallstone</a></li>
+                      <li><a href="#">Online Consultation</a></li>
+                  </ul>
+              </div>
 
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h5> Follow Us</h5>
-                    <ul class="social-network d-flex align-items-center p-0 ">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                    </ul>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-    </div>
-        
-    
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <h5> Follow Us</h5>
+                  <ul class="social-network d-flex align-items-center p-0 ">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                  </ul>
+              </div>
 
 
-    
+
+          </div>
+      </div>
+  </section>
+  </div>
+      
+  
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+
+</body></html>
